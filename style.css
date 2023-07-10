@@ -3,6 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Header section  */
 .head-container {
   display: flex;
   gap: 97px;
@@ -17,30 +18,97 @@ body {
   color: #272727;
   font-size: 80px;
   font-weight: 800;
-  margin-bottom: 30px ;
+  margin-top: 197px;
+  margin-right: 240px;
 }
-.head-paragraph {
-  width: 600px;
+.paragraph {
+  width: 650px;
   color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
   font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 30px ;
-
+  font-weight: 500;
+  margin-bottom: 30px;
+  line-height: 1.5;
 }
 .btn {
-    background: #e55473;
-    color: aliceblue;
-    padding: 20px 40px;
-    border-radius: 8px;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-}  
+  background: #e55473;
+  color: aliceblue;
+  padding: 20px 40px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  gap: 10px;
+}
 .img-container {
   width: 635px;
   height: 800px;
   padding-top: 50px;
   padding-right: 240px;
   padding-bottom: 0px;
+}
+
+/* Second section  */
+.feature-title {
+  /* width: 392px;
+  height: 48px; */
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800; 
+  margin-top: 178px;
+  margin-right: 764px;
+  margin-left: 764px;
+}
+.pr{
+  text-align: center;
+  margin-right: 663px;
+  margin-left: 663px;
+  margin-bottom: 48px;
+}
+
+/* flowers photo section  */
+.flower-photos{
+  width: 1392px;
+  display: flex;
+  justify-content: center;
+  margin-right: 240px;
+  margin-left: 240px;
+  margin-bottom: 128px;
+  gap: 24px;
+}
+
+.photo-container{
+  width: 464px;
+  height: 538px;
+  background-color: rgba(167, 33, 98, 0.15);
+  border-radius: 300px 300px 0px 0px;
+}
+
+.photo1{
+  width: 310px;
+  height: 428px;
+  margin-top: 110px;
+  margin-right: 78px;
+  margin-left: 76px;
+}
+.photo2{
+  width: 370px;
+  height: 370px;
+  margin: 117px 47px 51px 47px;
+}
+.photo3{
+  width: 314px;
+  height: 471px;
+  margin: 67px 75px 0px 75px;
+
+}
+.links{
+  color: #272727;
+  /* width: 181px; */
+  height: 35px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 110px;
+  margin-top: 40px;
+  text-decoration: underline;
 }
