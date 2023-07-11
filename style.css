@@ -48,17 +48,18 @@ body {
 }
 
 /* Second section  */
+
 .feature-title {
   /* width: 392px;
   height: 48px; */
   color: #272727;
   font-size: 40px;
-  font-weight: 800; 
+  font-weight: 800;
   margin-top: 178px;
   margin-right: 764px;
   margin-left: 764px;
 }
-.pr{
+.pr {
   text-align: center;
   margin-right: 663px;
   margin-left: 663px;
@@ -66,42 +67,41 @@ body {
 }
 
 /* flowers photo section  */
-.flower-photos{
+.flower-photos {
   width: 1392px;
   display: flex;
   justify-content: center;
   margin-right: 240px;
-  margin-left: 240px;
+  margin-left: 350px;
   margin-bottom: 128px;
   gap: 24px;
 }
 
-.photo-container{
+.photo-container {
   width: 464px;
   height: 538px;
   background-color: rgba(167, 33, 98, 0.15);
   border-radius: 300px 300px 0px 0px;
 }
 
-.photo1{
+.photo1 {
   width: 310px;
   height: 428px;
   margin-top: 110px;
   margin-right: 78px;
   margin-left: 76px;
 }
-.photo2{
+.photo2 {
   width: 370px;
   height: 370px;
   margin: 117px 47px 51px 47px;
 }
-.photo3{
+.photo3 {
   width: 314px;
   height: 471px;
   margin: 67px 75px 0px 75px;
-
 }
-.links{
+.links {
   color: #272727;
   /* width: 181px; */
   height: 35px;
@@ -114,11 +114,11 @@ body {
 }
 
 /* Comment section  */
-.feedback-section{
+.feedback-section {
   height: 800px;
   background: rgb(242, 239, 239);
 }
-.feeadback-title{
+.feeadback-title {
   text-align: center;
   width: 900px;
   color: #272727;
@@ -127,45 +127,118 @@ body {
   margin-left: 600px;
   padding-top: 50px;
 }
-.all-feadback{
+.all-feadback {
   display: flex;
   justify-content: space-around;
-  
 }
-.feedback{
+.feedback {
   margin-top: 40px;
 }
-.feed1, .feed2{
+.feed1,
+.feed2 {
   padding-right: 200px;
   border-right: 2px solid black;
-
-
 }
-.feedback-img{
+.feedback-img {
   width: 200px;
   height: 180px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.icons{
+.icons {
   margin-left: 40px;
   size: 20px;
   font-size: 24px;
 }
-.complement{
+.complement {
   margin-left: 60px;
   font-size: 24px;
   margin-bottom: 20px;
 }
-.comment{
+.comment {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 500;
   margin-top: 20px;
 }
-.name{
+.name {
   font-size: 20px;
   margin-bottom: 50px;
 }
 
 
+/* sale section  */
+.sale {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 650px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 128px;
+}
+.sale-title {
+  color: #272727;
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 1.5;
+  margin: 230px 215px 24px 50px;
+}
+.sale-color{
+  color: #e55473;
+}
+.sale-pr{
+  text-align: center;
+  margin-bottom: 32px;
+  
+}
+.signbtn{
+  margin-left: 150px;
+}
+
+.sale-photo{
+  width: 318px;
+  height: 420px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+/* Insta section  */
+.inst {
+  padding-left: 130px;
+  margin-top: 128px;
+}
+.insta {
+  margin-bottom: 48px;
+}
+
+.canvas{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 48px;
+  margin-bottom: 128px;
+}
+
+/* Input section  */
+.banner{
+  position: relative;
+  /* display: inline-block; */
+}
+.banner-text{
+  top: 122px;
+  left: 530px;
+  
+}
+.banner-img{
+  width: 100%;
+
+}
+.banner-text{
+  position: absolute;
+}
+.banner-title{
+  
+}
