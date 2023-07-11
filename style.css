@@ -112,3 +112,60 @@ body {
   margin-top: 40px;
   text-decoration: underline;
 }
+
+/* Comment section  */
+.feedback-section{
+  height: 800px;
+  background: rgb(242, 239, 239);
+}
+.feeadback-title{
+  text-align: center;
+  width: 900px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 600px;
+  padding-top: 50px;
+}
+.all-feadback{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.feedback{
+  margin-top: 40px;
+}
+.feed1, .feed2{
+  padding-right: 200px;
+  border-right: 2px solid black;
+
+
+}
+.feedback-img{
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.icons{
+  margin-left: 40px;
+  size: 20px;
+  font-size: 24px;
+}
+.complement{
+  margin-left: 60px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.comment{
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.name{
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+
